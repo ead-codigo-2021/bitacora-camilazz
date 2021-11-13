@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bitacora de Camila Morales</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="index.html" class="inicio">CAMILA</a>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="clases.html">Clases</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--Contenido general - pagina principal-->
+    <main class="main">
+        <div class="container-contenido">
+            <h1>Clase 3</h1>
+
+            <h2>Introducción a CSS</h2>
+            <p>Cascading Style Sheets (Hoja de estilos en cascada)</p>
+
+            <ul>
+                <li>Forma de escribirlo: regla</li>
+                <li>Selector - Propiedad - Valor de la propiedad 
+                    (es una declaración)
+                </li>
+                <li>Se pueden incorporar multiples selectores y múltiples 
+                    declaraciones
+                </li>
+            </ul>
+
+            <h3>En la escritura</h3>
+
+            <ul>
+                <li>Utilizar minúsculas</li>
+                <li>Identar declaraciones dentro de la regla</li>
+                <li>Solo un selector por línea</li>
+                <li>Solo una declaración por línea</li>
+                <li>Dejar espacio entre el último selector y la llave de inicio</li>
+                <li>Dejar un espacio entre los dos puntos y el valor</li>
+            </ul>
+
+            <h2>¿Cómo asociar una hoja de estilos a un documento HTML</h2>
+
+            <img src="img/img-7.png" alt="Enlazar archivo html a css">
+
+            <p>Como archivo externo mediante link </p>
+
+            <p>"< link rel “stylesheet” href= “estilos.css” medi-= “screen” >"</p>
+
+            <ul>
+                <li> Se puede insertar tanto en la sección "head" como en el "body", pero se 
+                recomienda en el "head" </li>
+                <li>Se puede enlazar a múltiples hojas de estilos</li>
+                <li>Las hojas de estilo se guardan en caché de navegador 
+                    por lo que optimiza la descarga de la página
+                </li>
+            </ul>
+
+            <h3>Etiqueta Style </h3>
+
+            <ul>
+                <li>Pueden haber múltiples delcaraciones</li>
+                <li>Permite usar todas las posibilidades de CSS</li>
+
+            </ul>
+
+            <img src="img/img-5.png" alt="Sección de código css">
+
+            <h3>Estilos en línea</h3>
+
+            <p>"h1 style "background: red; color: white;" Hola Mundo"</p>
+
+            <ul>
+                <li>Mezcla capa de contenido con capa de presentación</li>
+                <li>Sólo se puede dar estilos a un elemento a la vez</li>
+                <li>Amentan el tamaño de la descarga del HTML ya que se descargan con éste 
+                    en cada acceso
+                </li>
+                <li>Al hacer una modifiación, se debe replicar en todas 
+                    las páginas de un sitio
+                </li>
+            </ul>
+
+            <h3>Selectores CSS</h3>
+
+            <p>Los selectores definen sobre que elementos se aplicará el conjunto
+                de reglas CSS
+            </p>
+
+            <ul>
+                <li>Etiqueta</li>
+                <li>Atributo id</li>
+                <li>Atributo class</li>
+            </ul>
+            
+            <img src="img/img-8.png" alt="Ejemplo de class en html">
+
+            <img src="img/img-9.png" alt="Ejemplo de class en css" >
+
+            <p>Especificidad: es la jerarquía de aplicación de estilos sobre 
+                los elementos. Tiene un valor y se toma siempre el mayor.
+            </p>
+
+            <ul>
+                <li>Elementos, pseudo elementos: 1</li>
+                <li>Clases, pseudo clases y atributos: 10</li>
+                <li>Ids: 100</li>
+                <li>Estilos en linea: 1000</li>
+            </ul>
+        </div>
+    </main>
+<footer class="footer">
+     <div class="container">
+         <p>Bitacora de Camila Morales para el curso de Diseño desde
+            el Código 2021
+         </p>
+     </div>
+</footer>
+</body>
+</html>

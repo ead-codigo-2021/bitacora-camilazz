@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bitacora de Camila Morales</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="index.html" class="inicio">CAMILA</a>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="clases.html">Clases</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--Contenido general - pagina principal-->
+    <main class="main">
+        <div class="container-contenido">
+            <h1>Clase 5</h1>
+            
+            <h2>Diagramación CSS</h2>
+
+            <h3>Flexbox</h3>
+
+            <img src="img/img-12.png" alt="Ejemplo de uso de flexbox">
+
+            <p>Entrega a un contenedor la habilidad para alterar
+                el ancho o alto, y espaciados de sus elementos para ajustarse lo mejor posible al espacio 
+                disponible. Uncontenedor flexible espande sus elementos para rellenar el espacio libre, 
+                o los comprime para evitar que rebasen el área prevista.
+                Los contenedores flexibles funcionan en un eje, horizontal o vertical.
+            </p>
+
+            <ul>
+                <li>Contendor flexible (Elemento con propiedad display: flex)</li>
+                <li>Elementos flexibles (Descendientes directos de un contenedor flexible)</li>
+                <li>Eje principal (Sobre el cual se suceden los elementos flexibles)</li>
+                <li>Eje transversal (Perpendicular al eje principal)</li>
+                <li>Líneas  (Los elementos flexibles pueden quedar contenidos en una línea o utilizar varias según 
+                    su ancho.
+                </li>
+            </ul>
+
+            <h3>Multiples lineas</h3>
+
+            <p>Por defecto, los elementos flexibles de un contenedor flex se ajustan al ancho disponible, uno 
+                al lado del otro en la misma línea.
+                Esto puede ser modificado a través de la propiedad flex-wrap, permitiendo que estos rompan 
+                la línea y se ubiquen en una nueva línea según el ancho de los elementos.
+            </p>
+
+            <h3>Distribución</h3>
+
+            <ul>
+                <li>justify-content - Alineación de elementos en el eje principal (flex-start/flex-end/center/
+                    space-between/space-around/space-evenly)
+                </li>
+                <li>align-content - Distribución de espacios restantes en el eje secundario (flex-start/ 
+                    flex-end/center/stretch/baseline)
+                </li>
+                <li>align-items - Alineación de elementos en el eje secundario (flex-start/flex-end/center/stretch/baseline)</li>
+                <li>align-self - Alineación del propio elemento en el eje secundario - se aplica en un elemento 
+                    flexible (no en el contenedor)
+                </li>
+            </ul>
+
+            <img src="img/img-12.png" alt="Ejemplo de uso de justify-content">
+
+            <h3>Dimensiones</h3>
+
+            <p>Flexbox permite definir reglas de dimensiones para los elementos orientadas a 
+                adoptar los tamaños para distintas resoluciones.
+            </p>
+
+            <h3>Grid CSS</h3>
+            
+            <p>Permite pensar en un sistema de diagramación en 2 dimensiones.</p>
+
+            <h3>Dimensiones Características de CSS Grid</h3>
+
+            <ul>
+                <li>Diagramación en 2 dimensiones</li>
+                <li>Permite definir una estructura de diagramación independiente del orden 
+                    en que se encuentra el contenido 
+                </li>
+                <li>En combinación con "@media-queries", permite estructuras flexibles 
+                    dependientes de las características del cliente (escritorio/móvil) </li>
+                <li>Permite solapar áreas</li>    
+            </ul>
+
+            <ul>
+                <li>Contenedor de grilla: elemto exterior, padre directo de los elementos de grilla.</li>
+                <li>Elementos de grilla: descendientes directos del contenedor de grilla.</li>
+            </ul>
+        </div>
+    </main>
+<footer class="footer">
+     <div class="container">
+         <p>Bitacora de Camila Morales para el curso de Diseño desde
+            el Código 2021
+         </p>
+     </div>
+</footer>
+</body>
+</html>
