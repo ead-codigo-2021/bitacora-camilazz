@@ -1,0 +1,116 @@
+body{ 
+    background: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    margin: 0%;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.3em;
+}
+
+.p{
+    margin-bottom: 1.6em;
+}
+
+.container{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 80%;
+    max-width: 800px;
+}
+
+.header {
+    background: white;
+    color: teal;
+    padding: 2rem 0;
+}
+
+header a {
+    color: teal;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio {
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navegacion ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.footer {
+    background: white;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 20rem;
+}
+
+.footer .container {
+    color: teal;
+    font-size: 15px;
+}
+
+
+
+.container-clases {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-clases ul{
+    list-style: none;
+}
+
+.container-clases ul li {
+    display: inline-block;
+}
+
+.container-clases ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.5em;
+}
+
+.container-clases ul li a:hover {
+    color: yellow;
+}
+
+.container-contenido{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
