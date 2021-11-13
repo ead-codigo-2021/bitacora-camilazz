@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bitacora de Camila Morales</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="index.html" class="inicio">CAMILA</a>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="clases.html">Clases</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--Contenido general - pagina principal-->
+    <main class="main">
+        <div class="container-contenido">
+            <h1>Clase 9</h1>
+            
+            <h2>Continuando con Javascript o ECMAScript</h2>
+
+            <h3>Datos básicos</h3>
+
+            <ul>
+                <li>string - "Hola Mundo"</li>
+                <li>number - 1/10.25</li>
+                <li>boolean - true/false</li>
+                <li>array - (1,2,3 "catorce")</li>
+                <li>object - {
+                    "nombre": "Camila";
+                    "apellido": "Morales";
+                    }</li>
+                <li>undefined - no definido</li>
+                <li>null - nulo</li>    
+            </ul>
+
+            <h3>Procesadores CSS</h3>
+
+            <p>Es un programa que convierte un tipo de información en hojas 
+                de estilo CSS (Boostrap y Foundation están escritos sobre Sass (SCSS))
+            </p>
+
+            <h3>Uso de CSS</h3>
+
+            <h4>Anidación</h4>
+
+            <p>Es posible anidar los selectores de los elementos descendentes, lo que 
+                permite visulizar mejor la jerarquía de los elementos.
+                Debe utilizarse cuidadosamente, ya que la especificidad de los elementos puede aumentar 
+                sin darnos cuenta.
+            </p>
+
+            <h4>Variables</h4>
+
+            <p>Tal como las variables CSS, cada preprocesador cuenta con la alternativa de crear variables 
+                reutilizables.
+                Las variables se escriben "$variable: #ccc;" y deben estar declaradas (escritas) antes de ser 
+                utilizadas.
+            </p>
+
+            <h4>Operaciones</h4>
+
+            <p>Otra cualidad que consideran casi todos los preprocesadores es poder realizar 
+                operaciones matemáticas dentro del valor de una propiedad. SCSS considera al menos +, 
+                -, *, /, y %.
+            </p>
+
+            <h4>Funciones</h4>
+
+            <p>Sass ofrece una larga lista de funciones que pñodemos utilizar para gestionar 
+                colores, hacer cálculos o programar funciones más complejas.
+            </p>
+
+            <h4>Import</h4>
+
+            <p>Una de las principales ventajas de un preprocesador es la capacidad de importar otros archivos scss (o css), lo que permite 
+                aislar estilos en hojas separadas.
+            </p>
+
+            <ul>
+                <li>@import "reset.scss"</li>
+                <li>@import "type.scss"</li>
+                <li>@import "other.scss"</li>
+            </ul>
+
+            <h4>Mixins</h4>
+
+            <p>Forma de crear funciones propias, para grupar estilos comunes que puedan 
+                generarse a partir de variables. Podemos definir los parámetros y comportamientos 
+                internos a partir de ellos.
+            </p>
+
+            <ul>
+                <li>@mixin nombre ($parametros) {
+                    //estilos
+                }
+                </li>
+                <li>@include nombre ($parametros)</li>
+            </ul>
+        </div>
+    </main>
+<footer class="footer">
+     <div class="container">
+         <p>Bitacora de Camila Morales para el curso de Diseño desde
+            el Código 2021
+         </p>
+     </div>
+</footer>
+</body>
+</html>
